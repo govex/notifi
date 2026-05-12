@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Notifi
+*A notification system designed for use by cities*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Personalization
 
-In the project directory, you can run:
+ - Cities can add a hero image.
+ - Cities can choose primary, secondary and tertiary colors to be applied throughout the application.
+ - Cities can choose what types of alerts citizens can subscribe to.
+ - Cities can request a first and last name from a subscriber and furthermore can set whether this information is required or optional
 
-### `npm start`
+ ###### Notice the differences between cities illustrated below:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ ![alt text](./assets/README/balt.png)
+  ![alt text](./assets/README/phila.png)
+   ![alt text](./assets/README/sfran.png)
+   ![alt text](./assets/README/qhg.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+   ### Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   * The front-end was built using React that interacts with a a base in Airtable via a node.js server.
 
-### `npm run build`
+   ### AI Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   * AI was used conservatively in this project to bounce ideas off of, perform light code reviews and advise when things weren't working as expected. See screenshots below for reference:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ![alt text](./assets/README/chat1.png)
+   ![alt text](./assets/README/chat2.png)
+   ![alt text](./assets/README/chat3.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   * I gave Copilot a prompt to create a media query for mobile screens and it got me to a really good jumping off point in that regard.
