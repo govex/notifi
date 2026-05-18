@@ -53,7 +53,7 @@ function UserSignup() {
                         <form className='signup-form'>
                             <h1 style={{ color: `${city['primary color']}` }}>Sign up to receive notifications about {city.city}!</h1>
                             {/* <label htmlFor="email" >Email:</label><br></br> */}
-                            <input type="email" placeholder={`you@${city.city.toLowerCase()}.com (required)`} className='email-input' style={{ border: `2px solid ${city['primary color']}`, color: `${city['primary color']}` }} required/><br></br>
+                            <input type="email" placeholder={`you@${city.city.toLowerCase()}.com (required)`} className='email-input' style={{ border: `2px solid ${city['primary color']}`, color: `${city['primary color']}` }} required /><br></br>
                             {
                                 requestName && <>
                                     {/* <label htmlFor="name" style={{color: `${city['primary color']}`}}>First Name:</label><br></br> */}
@@ -62,7 +62,7 @@ function UserSignup() {
                                     <input type='text' placeholder={`Last Name${requireName ? ' (required)' : ' (optional)'}`} className='name-input' required={requireName} style={{ border: `2px solid ${city['primary color']}`, color: `${city['primary color']}` }} /></>
                             }
 
-                            <h4 style={{ color: `${city['primary color']}` }}>I would like to receive notification about the following:</h4>
+                            <h4 style={{ color: `${city['primary color']}` }}>I would like to receive notifications about the following:</h4>
                             <ul className='options-list'>
                                 {city['Name (from update triggers)'].map((category, index) => (
                                     <li key={index}>
@@ -75,7 +75,7 @@ function UserSignup() {
                                 ))}
                             </ul>
 
-                            <button className='signup-button' style={{backgroundColor: city['secondary color']}}>Sign Up</button>
+                            <button className='signup-button' style={{ backgroundColor: city['secondary color'] }}>Sign Up</button>
                         </form>
 
 
