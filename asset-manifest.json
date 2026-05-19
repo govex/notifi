@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/notifi/static/css/main.524541ff.css",
+    "main.js": "/notifi/static/js/main.4ed42011.js",
+    "static/js/453.7fbc6220.chunk.js": "/notifi/static/js/453.7fbc6220.chunk.js",
+    "index.html": "/notifi/index.html",
+    "main.524541ff.css.map": "/notifi/static/css/main.524541ff.css.map",
+    "main.4ed42011.js.map": "/notifi/static/js/main.4ed42011.js.map",
+    "453.7fbc6220.chunk.js.map": "/notifi/static/js/453.7fbc6220.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.524541ff.css",
+    "static/js/main.4ed42011.js"
+  ]
+}
